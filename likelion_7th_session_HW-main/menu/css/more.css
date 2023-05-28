@@ -1,0 +1,72 @@
+.profile.me{
+    justify-content: start;
+  }
+
+  .profile i{
+    padding: 6px 3px 3px 3px;
+  }
+
+  .profile.me{
+    padding-bottom: 20px;
+
+  }
+
+  .profile.me{
+    justify-content: space-between;
+  }
+  .profile>.text{
+    display: flex;
+    flex-direction: column;
+  }
+  .profile>i{
+    font-size: 30px;
+  }
+  .phone{
+    padding: 0px 10px;
+  }
+
+  .menu{
+    padding: 10px 0px 60px 0px;
+    border-bottom:  solid 2px #F2F2F2;
+}
+
+.menu>.icon{
+    width :90%;
+}
+.menu i{
+    position: relative;
+    font-size: 2.0rem;
+}
+
+.menu i .text{
+    justify-content: center;
+    width: 40px;
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%,  0%);
+  }
+
+  .suggestion{
+    display: flex;
+    flex-direction: column;
+  }
+  .suggestion_title{
+    width: 100%;
+  }
+  .suggestion>.apps{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+
+  .suggestion>.apps>.icon{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .suggestion>.apps>.icon>.image{
+    background-image: url("../image/p4.png");
+  }

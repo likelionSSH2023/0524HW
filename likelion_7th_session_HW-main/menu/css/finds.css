@@ -1,0 +1,94 @@
+.recommend{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+    flex-grow: 1;
+    border-bottom:  solid 2px #F2F2F2;
+}
+
+.recommend div{
+    width: 100%;
+}
+
+.recommend .text{
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+.menu{
+    padding: 10px 0px 35px 0px;
+    border-bottom:  solid 2px #F2F2F2;
+}
+
+.menu>.icon{
+    width :90%;
+}
+.menu i{
+    position: relative;
+    font-size: 2.0rem;
+}
+
+.menu i .text{
+    justify-content: center;
+    width: 40px;
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%,  0%);
+  }
+
+  .openchat{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .openchat .text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .room{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0px;
+  }
+
+  .tag{
+    display:flex;
+    flex-direction: column;
+  }
+  
+  .chat_name{
+    font-size: 1rem;
+  }
+
+  .room .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .room .image{
+    width: 100px;
+    height: 100px;
+    background-image: url("../image/p1.png");
+    border-radius: 10%;
+  }
+
+  .members div{
+    padding:0px 0px 0px 4px;
+  }
+  .members .image{
+    width: 20px;
+    height: 20px;
+    background-image: url("../image/p1.png");
+    border-radius: 50%;
+  }
+  

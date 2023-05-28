@@ -1,0 +1,28 @@
+.chat.box{
+  justify-content: start;
+  display: flex;
+}
+
+.kakao>.image{
+  background-image: url("../image/p2.png");
+
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: end;
+}
+
+
+.message{
+  padding: 0px 10px;
+  width: 200px;
+  height: 32px;
+}
+
+.chat>a{
+  display: flex;
+    }
+

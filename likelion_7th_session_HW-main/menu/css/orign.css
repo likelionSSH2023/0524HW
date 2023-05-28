@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+a{
+  text-decoration: none;
+}
+
+* {
+  /* border: solid 1px skyblue ;  */
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#424242;
+  }
+
+.select{
+  color: gray;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+
+}
+i{
+    padding: 2px 7px;
+}
+    
+div, section{
+    display: flex;
+    
+}
+
+  .container{
+    width: 320px;
+    align-items:center;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .content{
+    flex-grow: 1;
+  }
+  .image{
+    border-radius: 40%;
+  }
+
+  .image{
+    width: 50px;
+    height: 50px;
+    background-image: url("../image/p1.png");
+    background-repeat: round;
+  }
+  
+
+    .name{
+      padding: 3px 10px;
+      font-size: 1.0rem;
+      font-weight: 800;
+      
+    }
+
+ 
+  .system{
+    width: 100%;
+
+    flex-direction:row;
+    justify-content: space-between;
+
+    position: relative;
+  }
+  .time{
+    position: absolute;
+    transform: translate(-50%, -50%);
+   left: 50%;
+   top: 50%;
+  }
+
+  .system i{
+    padding: 4px 3px 3px 3px;
+  }
+
+  .box{
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 0px;
+  }
+
+  .head, .icon{
+    justify-content: space-between;
+  }
+
+  .head>.text{
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+  .head i{
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+
+  .tail{
+    width :100%;
+    height: 50px;
+    padding: 0px;
+    background-color: #F2F2F2;
+    border-top:  solid 2px gray;
+  }
+  
+  .tail>.icon{
+    width :90%;
+  }
+
+  .tail i{
+    position: relative;
+    font-size: 2.0rem;
+  }
+
+  i .alram{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 5px;
+    left: 30px;
+
+  }
+  .alram{
+    background-color: #FE642E;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alram .text{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .select{
+    animation-name: tailFrame;
+    animation-duration: 2s;
+  }
+
+  @keyframes tailFrame {
+    from{
+      margin-top:15px
+    }
+    to{
+      margin-top: 0px;
+    }
+    
+  }
+
+  .content>section{
+    animation-name: loading;
+    animation-duration: 2s;
+  }
+  @keyframes loading {
+    from{
+        margin-top: 50px;
+    }
+  }
+
+  i .alram{
+    animation: flip;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes flip {
+    0%{
+      width: 0px;
+    }
+    50%{
+      width: 15px;
+    }
+    100%{
+      width: 0px;
+    }
+    
+  }

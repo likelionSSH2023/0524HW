@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+  * {
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  
+  .system i{
+    padding: 4px 3px 3px 3px;
+  }
+
+  input{
+    width: 100%;
+    padding: 10px;
+    border:none;
+  }
+
+  .input_text{
+    border-bottom: 1px solid gray;
+
+    font-size: 1.0rem;
+    color: gray;
+  }
+
+  .input_text:focus{
+    outline: none;
+    background-color: #F0F8FF;
+    color:black;
+  }
+
+  .div_input{
+    padding: 10px;
+  }
+
+  .input_button{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #FFD700;
+    color: black;
+
+    font-weight: 800;
+  }
+
+
+  body {
+    margin:0px;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+  }
+
+  .container{
+    width: 320px;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .item{
+    width:100%;
+    text-align: center;
+  }
+
+  .system{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+    position: relative;
+  }
+
+  .time{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .item:nth-child(1){
+    padding: 10px 0 10px 0 ;
+
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+  
+  .item:nth-child(2){
+    padding: 0 0 30px 0;
+  }
+
+  .item:nth-child(4){
+    padding: 10px;
+
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
